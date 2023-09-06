@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:jammy
 
 LABEL maintainer="Victor H. <huezohuezo.1990@gmail.com>"
 MAINTAINER   Victor H. <huezohuezo.1990@gmail.com>
