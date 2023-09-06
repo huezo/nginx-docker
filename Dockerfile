@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND noninteractive
 #  NGINX Ubuntu 
 
 RUN apt-get update 
-RUN apt-get install nginx nginx-full nginx-extras -y 
+RUN apt-get install nginx nginx-extras -y 
 
 RUN ln -sf /dev/stdout /var/log/nginx/access.log 
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
