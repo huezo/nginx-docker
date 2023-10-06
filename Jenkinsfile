@@ -3,7 +3,7 @@
 pipeline {
 	agent none
   stages {
-  	stage('Docker Build') {
+  	stage('Docker Build Test') {
     	agent {
       	docker {
         	image 'docker:latest'
